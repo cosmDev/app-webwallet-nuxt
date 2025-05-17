@@ -3,8 +3,8 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
   app: {
-    baseURL: '/prefix/'
-  },
+    baseURL: '/app-webwallet-nuxt/'
+  }, 
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
