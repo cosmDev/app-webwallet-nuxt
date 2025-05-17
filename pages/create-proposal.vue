@@ -174,12 +174,6 @@ export default {
       );
       assertIsDeliverTxSuccess(result);
     },
-  },
-  mounted() {
-    const appStore = useAppStore();
-    if (!appStore.address) {
-      //this.$router.push({ name: "home" });
-    }
-  },
+  }
 };
 </script>
