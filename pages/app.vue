@@ -236,7 +236,7 @@
 import { ref, defineComponent } from "vue";
 import nodejsConfig from "../package.json";
 import { useAppStore } from "@/stores/data";
-import cosmosConfig from "./cosmos.config";
+import cosmosConfig from "@/cosmos.config";
 import { selectSigner } from "@/libs/signer.js";
 import axios from "axios";
 
